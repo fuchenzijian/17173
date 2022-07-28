@@ -1,0 +1,318 @@
+body,
+span,
+p,
+hr,
+ul,
+li,
+input {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-width: 1000px;
+}
+
+.wrap {
+    margin: 0 auto;
+}
+
+.search-box {
+    display: flex;
+}
+
+.header {
+    width: 1393px;
+    margin: 0 auto;
+}
+
+.login-register {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 11px 0;
+}
+
+.login-register span {
+    padding: 0 14px;
+}
+
+.login-register .sg {
+    display: inline-block;
+    height: 20px;
+    width: 3px;
+    background: #ccc;
+}
+
+.search {
+    border: 2px solid gold;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-btn {
+    background: gold;
+    width: 77px;
+    height: 45px;
+}
+
+.search input {
+    outline: none;
+    border: none;
+    height: 45px;
+    width: 440px;
+    text-indent: 18px;
+}
+
+.search-btn img {
+    width: 24px;
+}
+
+
+.search-content {
+    margin-left: 150px;
+}
+
+.logo {
+    width: 274px;
+    height: 49px;
+    padding-left: 25px;
+}
+
+.search-right {
+    display: flex;
+    flex-shrink: 0;
+    margin-left: 200px;
+    height: 44px;
+    box-sizing: border-box;
+    padding: 0 25px 0 0;
+    align-items: center;
+}
+
+.search-right p {
+    padding: 0 10px;
+}
+
+.logo-wrap {
+    width: 44px;
+    height: 44px;
+    border-radius: 11px;
+    overflow: hidden;
+}
+
+.logo-wrap img {
+    width: 100%;
+    height: 100%;
+}
+
+.search-text span {
+    margin-right: 10px;
+}
+
+.search-text {
+    padding: 10px 0;
+}
+
+.nav-left span {
+    margin-right: 30px;
+}
+
+.nav-left {
+    padding: 15px 0;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav-right span {
+    padding: 0 10px;
+}
+
+.main {
+    width: 1393px;
+    margin: 0 auto;
+}
+
+.nav-sub-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    align-items: center;
+    color: #c8c1b6;
+    font-size: 14px;
+}
+
+.nav-sub-list li {
+    display: inline-block;
+}
+
+.nav-list-r {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list-r .btn {
+    padding: 5px;
+    border: 2px solid #efbd9e;
+    border-radius: 5px;
+    margin: 0 10px;
+    color: #efbd9e;
+}
+
+
+.banner-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-wrap div {
+    width: 692px;
+    height: 103px;
+}
+
+.banner-wrap div img {
+    width: 100%;
+    height: 100%;
+}
+
+.img-placeholder {
+    width: 1392px;
+    height: 151px;
+}
+
+.img-placeholder img {
+    width: 100%;
+    height: 100%;
+}
+
+.pn-hd {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hd-l {
+    padding: 10px 0;
+}
+
+.hd-l ul {
+    list-style: none;
+    display: flex;
+}
+
+.hd-l ul li {
+    padding: 0 23px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.hd-l ul li img {
+    padding: 0 5px;
+}
+
+.hd-r {
+    display: flex;
+    align-items: center;
+}
+
+.hd-r input {
+    outline: none;
+    border: none;
+    padding: 5px 0;
+    text-indent: 18px;
+    font-size: 14px;
+}
+
+.search-form-game {
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.search-form-game .btn {
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+}
+
+.btn-add-game {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.btn-add-game .add {
+    background-color: orange;
+    color: #fff;
+    font-size: 14px;
+    margin: 0 5px;
+}
+
+.links-game .title {
+    width: 65px;
+    text-align-last: justify;
+    display: inline-block;
+    color: #0069b9;
+    margin-right: 15px;
+}
+
+.links-game {
+    padding: 10px 0;
+    font-size: 14px;
+    display: flex;
+}
+
+.links-game span{
+    display: inline-block;
+}
+
+.links-game .col-1 {
+    width: 115px;
+}
+
+.links-game .col-2 {
+    width: 163px;
+}
+.links-game .col-3 {
+    width: 98px;
+}
+.links-game .col-4 {
+    width: 115px;
+}
+.links-game .col-5 {
+    width: 109px;
+}
+.links-game .col-6 {
+    width: 86px;
+}
+.links-game .col-7 {
+    width: 105px;
+}
+.links-game .col-8 {
+    width: 96px;
+}
+.links-game .col-9 {
+    width: 126px;
+}
+.links-game .col-10 {
+    width: 85px;
+}
+.links-game .col-11 {
+    width: 90px;
+}
+
+.btn-more-game{
+    padding: 34px 0;
+    text-align: center;
+    color: #ff5c00;
+}

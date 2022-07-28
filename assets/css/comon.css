@@ -1,0 +1,29 @@
+.flex-right{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.cl-grey{
+    color: #ccc;
+}
+
+.flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-gold{
+    background: gold;
+    border: none;
+    height: 2px;
+}
+
+.cl-orange{
+    color: #efbd9e;
+}
+
+.icon{
+    width: 18px;
+}
